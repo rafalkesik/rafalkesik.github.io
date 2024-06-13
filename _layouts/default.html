@@ -1,12 +1,12 @@
-<!-- Code ready to begin lesson 5.2 -->
-
 <!DOCTYPE html>
 <html>
   {% include head.html %}
   <body>
-    {% include header.html content="This is my sample note." %}
+    {% include header.html %}
 
-    {{ content }}
+<div class="content-container">  
+      {{ content }}
+</div>
 
     {% include footer.html %}
   </body>
