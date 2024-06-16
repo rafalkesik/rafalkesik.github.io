@@ -1,10 +1,10 @@
 ---
 layout: post
-title: This is the title of the post
-postHero: /images/shark.jpg
-author: Me, Myself, and I
+title: Artykuł Rafcia
+postHero: /images/large/slide1.jpg
+author: Rafał Kęsik
 authorTwitter: https://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
+gravatar: https://media.licdn.com/dms/image/C4E03AQFA6BwYem7y5w/profile-displayphoto-shrink_800_800/0/1657479283726?e=1724284800&v=beta&t=k11bmHcS9lle0lOv8SIgV73_lYyblKmyhIElNivR4dY
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
 
