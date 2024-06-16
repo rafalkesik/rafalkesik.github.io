@@ -49,22 +49,9 @@ layout: default
     
     <div class="home-section">
         <h4>Most recent post</h4>
-        <div class="blog-posts">
-            <header class="post-header">
-                <h2>
-                    <a href="{{ site.posts.first.url}}">
-                    {{ site.posts.first.title }}</a>
-                </h2>
-                <div class="post-byline">
-                    <img src="{{ site.posts.first.gravatar }}" alt="Avatar">
-                    <a href="{{ site.posts.first.authorTwitter}}" class="social-link">Tw</a>
-                    by: {{ site.posts.first.author }}
-                    <span> - {{site.posts.first.date | date: '%B %d, %Y' }}</span>
-                </div>
-            </header>
-            <div class="posts-image" style="background-image: url({{ site.posts.first.postHero }});"></div>
-            {{ site.posts.first.excerpt }}
-        </div>
+        {% for post in site.posts limit: 1 %}
+            {% include post-preview.html %}
+        {% endfor %}
     </div>
 
     <div class="home-section">
