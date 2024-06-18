@@ -188,22 +188,44 @@ h2 + p {
     color: #333;
 }
 
-.footer .drop-menu {
+.footer .drop-menu li:first-child {
+    color: #999;
+}
+.footer .drop-menu li {
+    display: block;
+    margin: 0;
+}
+.footer .drop-menu a {
+    color: #000;
+}
 
-    /* bottom: 0; */
+.footer .drop-trigger:after {
+    border-color: transparent transparent #aaa;
+    top: 0.1em;
+}
+.footer .dropdown:hover .drop-trigger:after {
+    border-color: transparent transparent #ed6e2f;
+    top: 0.1em;
 }
 .footer .dropdown:hover .drop-menu {
-    
+    /* top: -8em; */
+    transform: translate(0, -100%);
+    top: -1em;
 }
-
-/* HIDE IN THE FOOTER
-.footer .dropdown:hover .drop-menu,
-.footer .drop-trigger:after {
+.footer .dropdown:hover .drop-menu:before {
     display: none;
 }
-.footer .drop-trigger {
-    padding-right: 0;
-} */
+.footer .dropdown:hover .drop-menu:after {
+    border: 0.6em solid;
+    border-color: #fff transparent transparent;
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    bottom: -1.1em;
+    right: 1.2em;
+} 
+
 
 /* FOOTER STYLES */
 .footer {
