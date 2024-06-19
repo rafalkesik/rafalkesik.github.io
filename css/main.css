@@ -205,12 +205,11 @@ h2 + p {
 }
 .footer .dropdown:hover .drop-trigger:after {
     border-color: transparent transparent #ed6e2f;
-    top: 0.1em;
 }
 .footer .dropdown:hover .drop-menu {
-    /* top: -8em; */
     transform: translate(0, -100%);
-    top: -1em;
+    top: 0em;
+    padding: 0 0 1em;
 }
 .footer .dropdown:hover .drop-menu:before {
     display: none;
@@ -222,7 +221,7 @@ h2 + p {
     content: "";
     height: 0;
     width: 0;
-    bottom: -1.1em;
+    bottom: -0.1em;
     right: 1.2em;
 } 
 
