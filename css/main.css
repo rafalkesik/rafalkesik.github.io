@@ -691,7 +691,7 @@ h2 + p {
         text-align: center;
         top: 1.5em;
         width: 100%;
-
+    }
     /* HOME STYLES */
     .home-callout {
         flex-direction: column;
