@@ -6,8 +6,13 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    /* font-family: helvetica, arial, sans-serif; */
     min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 .content-container {
     display: flex;
@@ -421,11 +426,11 @@ h2 + p {
     color: #fff;
     display: inline-block;
     font-family: helvetica, arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    height: 2.5em;
+    height: 1.5em;
     line-height: 1;
-    padding-top: 0.85em;
+    padding-top: 0.25em;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -464,6 +469,7 @@ h2 + p {
 }
 .bio-box h3 {
     color: #fff;
+    font-family: 'Fjalla One', Helvetica, sans-serif;
     font-size: 1.5em;
     margin: -40px 0 1em;
     text-align: center;
