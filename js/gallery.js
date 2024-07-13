@@ -11,9 +11,14 @@ function activateGallery() {
         let description = galleryInfo.querySelector(".description");
 
         thumbnails.forEach(function(thumbnail) {
+            // Preload large images.
+            let newImageSrc = thumbnail.dataset.largeVersion;
+            let largeVersion = new Image();
+            largeVersion.src = newImageSrc
+
             thumbnail.addEventListener("click", function() {
                 // Replaces the source of main image with the clicked image source.
-                mainImage.setAttribute("src", thumbnail.src);
+                mainImage.setAttribute("src", thumbnail.getAttribute("data-large-version"));
                 mainImage.setAttribute("alt", thumbnail.alt)
 
                 // Replaces the selection in the thumb-images.
