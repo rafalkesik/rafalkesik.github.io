@@ -12,7 +12,7 @@ description: A dangerous site deserves a dangerous blog.
             <ul class="blog-title-list">
                 {% for post in site.posts limit:5 %}
                     <li>
-                        <a href="">{{ post.title }}</a>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
                         <span>Posted: {{ post.date | date: '%B %d, %Y' }}</span>
                         <span>by: {{ post.author }}</span>
                         <span class="post-header"><img src="{{ post.gravatar }}" alt="Avatar"></span>
