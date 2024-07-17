@@ -14,7 +14,7 @@ particular to interest me on shore, I thought I would sail about a little
 and see the watery part of the world. It is a way I have of driving off
 the spleen and regulating the circulation.
 
-<img class="pull-left" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" alt="dog puppy">
+<img style="width: 30%; height: auto;" class="pull-left" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" alt="dog puppy">
 
 Whenever I find myself growing grim about the mouth; whenever it is a damp,
 drizzly November in my soul; whenever I find myself involuntarily pausing
