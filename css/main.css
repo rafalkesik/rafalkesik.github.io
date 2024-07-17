@@ -698,6 +698,14 @@ h2 + p {
         top: 1.5em;
         width: 100%;
     }
+    .footer-nav .dropdown:hover .drop-menu,
+    .footer-nav .drop-trigger:after {
+        display: none;
+    }
+    .footer-nav .drop-trigger {
+        padding-right: 0;
+    }
+    
     /* HOME STYLES */
     .home-callout {
         flex-direction: column;
